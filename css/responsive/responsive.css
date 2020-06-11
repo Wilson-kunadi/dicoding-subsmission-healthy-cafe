@@ -1,0 +1,137 @@
+@media all and (max-width: 1023px){
+  .header-msg-wrapper{
+    font-size: 22px;
+  }
+
+  .message h1{
+    font-size: 22px;
+  }
+
+  .message p{
+    font-size: 12px;
+  }
+
+  .why-us-item h3{
+    font-size: 12px;
+  }
+
+  .why-us-item p{
+    font-size: 10px;
+  }
+
+  .form-flex .label p{
+    font-size: 12px;
+  }
+
+  .aside-body .form-flex{
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 767px){
+  header .row-wrapper li{
+    display: none;
+  }
+
+  header .row-wrapper .iconss{
+    display: flex;
+    font-size: 30px;
+    
+  }
+  
+  .header-msg-wrapper h1{
+    font-size: 30px;
+  }
+
+  .message h1{
+    font-size: 18px;
+  }
+
+  .msg-desc p{
+    font-size: 12px;
+  }
+
+  .why-us .row-wrapper{
+    flex-wrap: wrap;
+  }
+
+  .why-us-item{
+    width: 50%;
+  }
+  
+  .why-us-item h3{
+    font-size: 13px;
+  }
+
+  .why-us-item p{
+    font-size: 12px;
+  }
+
+  .subs-plan .row-wrapper{
+    flex-wrap: wrap;
+  }
+
+  .subs-plan .wrapper-subs-item{
+    flex-basis: 70%;
+    margin-bottom: 20px;
+  }
+
+  .contact-us .row-wrapper{
+    flex-wrap: wrap;
+  }
+
+  .contact-us .row-wrapper .contact-us-form, .contact-us aside{    
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .contact-us aside{
+    flex-basis: 50%;
+  }
+
+  .contact-us .row-wrapper .contact-us-form{
+    flex-basis: 100%;
+  }
+
+  .form-flex .input-flex, .form-flex .input-flex input, .form-flex .input-flex textarea{
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 580px){
+  .header-msg-wrapper h1{
+    font-size: 20px;
+  }
+
+  .about-us .row-wrapper{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .side{
+    flex-basis: 100%;
+  }
+
+  .image{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-flex .label p{
+    font-size: 12px;
+  }
+
+  .form-flex .label{
+    margin: 5px;
+  }
+
+  .contact-us aside{
+    flex-basis: 80%;
+  }
+}
+
+@media all and (max-width: 400px){
+  .why-us-item{
+    width: 100%;
+  }
+}
